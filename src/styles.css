@@ -53,3 +53,34 @@ p {
   margin-right: 15px;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  h1,
+  h2,
+  p {
+    text-align: center;
+    margin: 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    margin: 15px;
+    padding-top: 20px;
+  }
+
+  .cardComponent {
+    margin: 15px;
+  }
+
+  .statistics {
+    margin-top: 25px;
+  }
+}
