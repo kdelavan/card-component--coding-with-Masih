@@ -42,6 +42,7 @@ p {
 .imageColoring {
   background-color: #24f65c;
   border-radius: 0 5px 5px 0;
+  order: 2;
   padding-left: calc(var(--bs-gutter-x) * 0);
   padding-right: calc(var(--bs-gutter-x) * 00);
 }
@@ -89,5 +90,9 @@ p {
   .statistics {
     margin-top: 25px;
     margin: 0 auto;
+  }
+
+  .content {
+    order: 2;
   }
 }
