@@ -1,5 +1,6 @@
 body {
   background-color: #1f1f1f;
+  margin-top: 65px;
 }
 
 h1 {
@@ -31,7 +32,7 @@ p {
 .cardComponent {
   background-color: white;
   border-radius: 5px;
-  margin: 100px;
+  margin: 0 auto;
 }
 
 .greenText {
@@ -56,16 +57,24 @@ p {
 }
 
 @media (max-width: 767px) {
+  body {
+    margin: 15px;
+  }
+
   h1,
   h2,
   p {
     text-align: center;
-    margin: 15px;
+    margin: 16px;
   }
 
   h1,
   h2 {
     font-size: 30px;
+  }
+
+  h1 {
+    padding-top: 20px;
   }
 
   p {
@@ -77,11 +86,8 @@ p {
     padding-top: 20px;
   }
 
-  .cardComponent {
-    margin: 25px;
-  }
-
   .statistics {
     margin-top: 25px;
+    margin: 0 auto;
   }
 }
